@@ -2,7 +2,7 @@ import React from 'react'
 import { useGlobalContext } from '../context'
 import CockTail from './CockTail'
 import Loading from './Loading'
-import {Link} from 'react-router-dom'
+
 
 const CockTailList = () => {
     const {cocktails, loading} = useGlobalContext()
